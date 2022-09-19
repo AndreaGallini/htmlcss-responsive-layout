@@ -324,7 +324,7 @@ footer p{
 }
 /* mediaquery */
 @media screen and (min-width: 768px){
-    .container-sm{
+    .container{
         width: 750px;
     }
 }
