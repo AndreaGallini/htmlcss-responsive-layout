@@ -391,12 +391,16 @@ footer p{
      .inner-1-planning{
         width: 45%;
      }
-     .container-mm{
+     .container-m{
         max-width: 1140px;
-        margin: 0 auto;
+        margin: 1rem auto;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        margin:0;
+        align-items: center;
+     }
+     .container-move-2{
+        margin-top: 20rem;
+        margin-left: -12rem;
      }
 }
