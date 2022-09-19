@@ -20,6 +20,9 @@ html{
 .d-flex{
     display: flex;
 }
+.item-start{
+    align-items: flex-start;
+}
 .item-center{
     align-items: center;
 }
@@ -62,6 +65,9 @@ header a{
     padding: 1rem 2rem;
 }
 /* main */
+#planning , #features , #get-started{
+    background-color: var(--purple);
+}
 
 /* sezione intro */
 .card{
@@ -105,4 +111,214 @@ a i{
 }
 .card p{
     padding-bottom: 1rem;
+    text-align: left;
+    padding-right: 2rem;
+
+}
+/* sezione planning */
+.inner-1-planning img{
+    width: 200px;
+    padding-left: 2rem;
+}
+/* .inner-1-planning h3,p{
+    color: var(--white);
+    padding: 2rem 0;
+    padding-left: 2rem;
+} */
+ .inner-1-planning h3{
+    font-size: 2rem;
+    color: var(--white);
+    text-align: left;
+    padding-left: 2rem;
+}
+.inner-1-planning p{
+    color: var(--white);
+    text-align: left;
+    padding-left: 2rem;
+}
+.inner-container{
+    width: 80%;
+    background-color: var(--white);
+    margin-left: 2rem;
+    border-radius: 30px;
+    padding-bottom: 2rem;
+}
+.inner-container h3,p{
+    color: var(--dark);
+    padding: 1rem 0;
+    text-align: center;
+}
+.inner-container p{
+    color: var(--dark);
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.inner-container p{
+    color: var(--dark);
+}
+.inner-container a{
+    color: var(--dark);
+    font-size: 1rem;
+}
+.lilla{
+    background-color: var(--purple);
+    border-radius: 50%;
+    padding: 10px 14px;
+    text-align: center;
+}
+.inner-container i{
+    padding: 0;
+}
+#planning{
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+}
+/* sezione testimonial */
+#testimonials{
+    
+    padding: 3rem 4rem;
+    padding-top: 10rem;
+}
+#testimonial-text{
+    text-align: center;
+    padding: 0 2rem;
+    padding-bottom: 3rem;
+}
+.cards-testimonial{
+    width: 80%;
+}
+.card-testimonial{
+    background-color: var(--purple);
+    padding-top: 2rem;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+}
+.card-testimonial img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.testimonial-title{
+    font-weight: 400;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.text-white{
+    color: var(--white);
+}
+.text{
+    text-align: center;
+}
+/* sezione feature */
+.text-features{
+    padding: 2rem 0;
+}
+.card-features p{
+    text-align: left;
+    padding-bottom: 2rem;
+}
+.card-features{
+    background-color: var(--white);
+    padding-left: 2rem;
+    text-align: left;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    
+}
+.cards-features{
+    width: 80%;
+    margin: 0 auto;
+}
+.card-features h2{
+    color: var(--purple);
+}
+.card-features h3{
+    color: var(--purple);
+}
+.features-btn{
+    background-color: var(--purple);
+    padding: 0.5rem 3rem;
+}
+.purple{
+    color: var(--purple);
+    padding: 3rem 0;
+}
+#about-us h2,{
+    text-align: left;
+    padding-left: 2rem;
+    
+}
+#about-us p{
+    text-align: left;
+    padding-left: 2rem;
+    
+}
+#about-us img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.about-us-inner{
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.about-us-btn{
+    background-color: var(--purple);
+    padding: 0.5rem;
+}
+.about-us-inner h3,p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+/* sezione get started */
+#get-started{
+    margin-top: 2rem;
+    color: white;
+    text-align: center;
+    padding: 2rem 2rem;
+}
+#get-started p{
+    color: white;
+    text-align: center;
+    padding: 2rem 2rem;
+}
+#get-started h4{
+    font-weight: lighter;
+}
+#get-started h3{
+    color: var(--white);
+    padding: 1rem 0;
+}
+#get-started h2{
+    color: var(--light-orange);
+    font-size: 3rem;
+  
+}
+.btn-started{
+    background-color: var(--white);
+    color: var(--purple);
+}
+
+#policy{
+    text-decoration: underline;
+}
+.dot{
+    font-size: 0.3rem;    
+}
+/* sezione footer */
+footer{
+    background-color: var(--dark-grey);
+}
+footer p{
+    color: var(--white);
+    text-align: center;
+    padding: 1rem 2rem;
+}
+.underline-blu{
+    color: var(--blu);
+    text-decoration: underline;
 }
