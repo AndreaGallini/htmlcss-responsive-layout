@@ -412,6 +412,7 @@ footer p{
         flex-direction: row;
         flex-wrap: nowrap;
         align-items: center;
+        justify-content: center;
      }
      .container-move-2{
         margin-top: 20rem;
