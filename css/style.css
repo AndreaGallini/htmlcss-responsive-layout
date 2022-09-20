@@ -60,6 +60,10 @@ header a{
 }
 .main-menu{
     display: none;
+    
+}
+.row{
+    flex-direction: row;
 }
 .space{
     padding: 1rem 2rem;
@@ -349,6 +353,10 @@ footer p{
     .card-testimonial p{
         text-align: left;
         padding-left: 1rem;
+        
+    }
+    .inner-container{
+        max-width: 750px;
     }
     .card-testimonial h3{
         text-align: left;
@@ -378,6 +386,7 @@ footer p{
         align-items: flex-start;
         text-align: flex-start;
     }
+
 }
 @media screen and (min-width:1200px) {
     .container{
@@ -403,4 +412,11 @@ footer p{
         margin-top: 20rem;
         margin-left: -12rem;
      }
-}
+     .hamburger{
+        display: none;
+     }
+     .main-menu{
+        display: block;
+        display: flex;
+     }
+    }
