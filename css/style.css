@@ -16,6 +16,7 @@
 }
 html{
     font-family: 'PT Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 .d-flex{
     display: flex;
@@ -38,6 +39,7 @@ html{
     border-radius: 30px;
     color: var(--white);
     text-decoration: none;
+
 }
 
 /* header */
@@ -45,6 +47,9 @@ header{
     width: 100%;
     background-color: var(--blu);
     color: var(--white);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 .container{
     max-width:600px ;
@@ -356,7 +361,7 @@ footer p{
         
     }
     .inner-container{
-        max-width: 750px;
+        width: 90%;
     }
     .card-testimonial h3{
         text-align: left;
